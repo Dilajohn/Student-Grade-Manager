@@ -58,8 +58,26 @@ The **Student Grades Manager** is a Python-based program designed to manage stud
 ## Future Extensions
 - **Edit Student Details**: Update a student's name or subjects.  
 - **Grade Statistics**: Provide additional metrics, such as the highest/lowest grades and subject averages.  
-- **Subject-Wise Performance**: Analyze and display performance metrics for each subject.  
+- **Subject-Wise Performance**: Analyze and display performance metrics for each subject.
+- Subject-Wise Performance Analysis:
+Analyze the average grade for each subject across all students. This provides insights into how well the class is performing in specific subjects.
 
+Search Feature:
+Add functionality to search for students by name (or partial name) to locate them quickly.
+
+Enhanced User Interface:
+Use a library like curses (for advanced terminal UIs) or add color/formatting to improve the display.
+
+Validation and Error Handling:
+Improve input validation, such as handling non-numeric grades gracefully and ensuring no duplicate student IDs.
+
+Data Insights Dashboard:
+Build a summary of all data, including:
+
+Total students
+Average grade per subject
+Highest and lowest grades
+Top-performing students.
 ---
 
 ## Example Commands
